@@ -1,0 +1,80 @@
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+	#container {
+		background-color: AliceBlue;   
+	}
+	#submitbar, #submitdiv {
+		font-size: 88px;
+	}
+	#backbtn, #logoutbtn {
+		font-size: 72px;
+	}
+	#instructspan {
+		font-size: 52px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	#listdiv {
+		margin-top: 358px;
+	}
+	#teachername, #classname, #studentname  {
+		font-size: 72px;
+	}
+	#hdrdiv {
+		font-size: 52px;	
+	}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+	#container {
+		background-color: AliceBlue; 
+	}
+	#submitbar, #submitdiv {
+		font-size: 72px;
+	}
+	#backbtn, #logoutbtn {
+		font-size: 52px;
+	}
+	#instructspan {
+		font-size: 44px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	#listdiv {
+		margin-top: 300px;
+	}
+	#teachername, #classname, #studentname  {
+		font-size: 52px;
+	}
+	#hdrdiv {
+		font-size: 44px;	
+	}
+}
+
+
+/* Portrait and Landscape */
+/*
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+	#container {
+		background-color: Plum; 
+	}
+}
+*/

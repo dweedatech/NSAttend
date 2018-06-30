@@ -1,0 +1,57 @@
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+
+/* Portrait and Landscape */
+/*
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+	#container {
+		background-color: Plum; 
+	}
+}
+*/
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+	#container {
+		background-color: AliceBlue;   
+	}
+	#submitbar, #submitdiv {
+		font-size: 88px;
+	}
+	#backbtn, #logoutbtn {
+		font-size: 72px;
+	}
+	#listdiv {
+		margin-top: 270px;
+	}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+	#container {
+		background-color: LightSteelBlue; 
+	}
+	#submitbar, #submitdiv {
+		font-size: 44px;
+	}
+	#backbtn, #logoutbtn {
+		font-size: 36px;
+	}
+	#listdiv {
+		margin-top: 220px;
+	}
+}

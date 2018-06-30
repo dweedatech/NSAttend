@@ -1,0 +1,213 @@
+/*********************************************************************
+ * NS Attendance
+ *
+ */
+
+#body {
+	background-color: AliceBlue; 
+}
+#container {
+	background-color: AliceBlue; 
+	width: 100%;
+	height: auto;
+}
+#userform {
+	display: block;
+}
+#banner {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1; 
+	background-color: AliceBlue; 
+}
+#submitbar, #submitdiv {
+	padding: 0;
+	border-style: none;
+	box-shadow: none;
+ 	border-radius: 0px;
+	font-family: Calibri, Sans-serif; 
+	/* position: fixed; */
+	/* top: 0; */ 
+	width: 100%;
+	/* font-size: 20px; */
+	color: white;
+	height: auto;
+	background-color: MidnightBlue; 
+}
+#btndiv {
+	padding: 0;
+	font-family: Calibri, Sans-serif; 
+	display: inline; 
+	/* margin-bottom: 10px; */
+}
+#backbtn {
+	padding: 0;
+	border-style: none;
+	box-shadow: none;
+ 	border-radius: 0px;
+  	/*position: absolute; */
+	/* display:inline-block; */
+	font-family: Calibri, Sans-serif; 
+	/* position: fixed; */
+	top: 30px; 
+	width: 50%;
+	color: white;
+	height: auto;
+	background-color: LightSlateGrey; 
+}
+#logoutbtn {
+	padding: 0;
+	border-style: none;
+	box-shadow: none;
+ 	border-radius: 0px;
+	float: left;
+	width: 100%;
+  	/*position: absolute; */
+	/* display: inline; */
+	font-family: Calibri, Sans-serif; 
+	/* position: fixed; */
+	top: 30px; 
+	/* margin-left: 50%; */
+	color: white;
+	height: auto;
+	background-color: DimGrey; 
+}
+
+#hdrdiv {
+	font-size: 60px;
+	font-family: Calibri, Sans-serif; 
+	/* display: inline; */
+	text-align: center;
+	width: 100%;
+	/* top: 60px; */
+	background-color: Peru;
+	color: White;	
+}
+#instructspan {
+	display: block;
+	float: left;
+	width: 100%;
+	font-family: Calibri, Sans-serif;
+	font-size: 48px;
+	background-color: AliceBlue; 
+	margin-top: 10px;
+	padding-left: 20px;
+	color: Black;
+	text-decoration: underline;
+}
+
+#listdiv {
+	display: block;
+	margin-top: 190px;
+	font-size: 36px;
+    height: 100%;
+    /* overflow: scroll; */
+    width: 100%;
+}
+#listrow {
+	display: block;
+	margin-top: 2px;
+	margin-left: 20px;
+	font-size: 36px;
+}
+#teachername, #classname, #studentname {
+	padding-left: 15px;
+	font-family: Calibri, Sans-serif; 
+	font-size: 20px; 
+}
+#teacherradio, #classradio {
+	color: Snow;
+	width: 14px;
+	margin-left: 10px;
+	margin-right: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+#studentcheck {
+	color: Black;
+	width: 14px;
+	margin-left: 10px;
+	margin-right: 0px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+/* mobile retina layout */
+/*
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.25),
+only screen and ( min--moz-device-pixel-ratio: 1.25),
+only screen and ( -o-min-device-pixel-ratio: 1.25/1),
+only screen and ( min-device-pixel-ratio: 1.25),
+only screen and ( min-resolution: 200dpi),
+only screen and ( min-resolution: 1.25dppx)
+{
+	#container {
+		background-color: AliceBlue; 
+	}
+	#submitbar, #submitdiv {
+		font-size: 88px;
+	}
+	#backbtn, #logoutbtn {
+		font-size: 72px;
+	}
+}
+*/
+/* mobile retina layout */
+/*
+@media
+only screen and (-webkit-max-device-pixel-ratio: 1.25),
+only screen and ( max--moz-device-pixel-ratio: 1.25),
+only screen and ( -o-max-device-pixel-ratio: 1.25/1),
+only screen and ( max-device-pixel-ratio: 1.25),
+only screen and ( max-resolution: 200dpi),
+only screen and ( max-resolution: 1.25dppx)
+{
+	#container {
+		background-color: HoneyDew; 
+	}
+	#submitbar, #submitdiv {
+		font-size: 88px;
+	}
+	#backbtn, #logoutbtn {
+		font-size: 72px;
+	}
+}
+*/
+/* mobile layout */ 
+/*                       
+@media only screen and (max-width: 1080px) {
+
+	#container {
+		background-color: AliceBlue; 
+	}
+	#submitbar, #submitdiv {
+		font-size: 88px;
+	}
+	#backbtn, #logoutbtn {
+		font-size: 72px;
+	}
+}
+*/
+
+/* desktop layout */ 
+/*							
+@media only screen and (min-width: 1081px) {
+
+	#container {
+		background-color: LightSteelBlue;
+	}
+	#submitbar, #submitdiv {
+		font-size: 36px;
+	}
+	#backbtn, #logoutbtn {
+		font-size: 36px;
+	}	
+}
+*/
+
+
+
+
+

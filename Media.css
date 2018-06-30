@@ -1,0 +1,104 @@
+/*********************************************************************
+ * NS Attendance - Media CSS
+ *
+ *
+ */
+ 
+/* mobile layout */                      
+@media only screen and (max-width: 570px) {
+
+	#container {
+		background-color: AliceBlue; 
+	}
+	#submitbar, #submitdiv {
+		font-size: 44px;
+	}
+	#backbtn, #logoutbtn {
+		font-size: 36px;
+	}
+	#instructspan {
+		font-size: 36px;
+	}
+	#listdiv {
+		margin-top: 145px;
+	}
+	#listrow {
+		/*font-size: 36px;*/
+	}
+	#teachername, #classname, #studentname  {
+		font-size: 36px;
+	}
+}
+
+/* desktop layout */ 							
+@media only screen and (min-width: 570px) {
+
+	#container {
+		background-color: LightSteelBlue;
+	}
+	#submitbar, #submitdiv {
+		font-size: 44px;
+	}
+	#backbtn, #logoutbtn {
+		font-size: 52px;
+	}
+	#instructspan {
+		font-size: 36px;
+	}
+	#listdiv {
+		margin-top: 165px;
+	}
+	#teachername, #classname, #studentname  {
+		font-size: 52px;
+	}
+}
+
+/* mobile retina layout */
+/*
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.25),
+only screen and ( min--moz-device-pixel-ratio: 1.25),
+only screen and ( -o-min-device-pixel-ratio: 1.25/1),
+only screen and ( min-device-pixel-ratio: 1.25),
+only screen and ( min-resolution: 200dpi),
+only screen and ( min-resolution: 1.25dppx)
+{
+	#container {
+		background-color: Plum; 
+	}
+	#submitbar, #submitdiv {
+		font-size: 88px;
+	}
+	#backbtn, #logoutbtn {
+		font-size: 72px;
+	}
+}
+*/
+
+
+/* mobile retina layout */
+/*
+@media
+only screen and (-webkit-max-device-pixel-ratio: 2),
+only screen and ( max--moz-device-pixel-ratio: 2),
+only screen and ( -o-max-device-pixel-ratio: 2/1),
+only screen and ( max-device-pixel-ratio: 2),
+only screen and ( max-resolution: 192dpi),
+only screen and ( max-resolution: 2dppx)
+{
+	#container {
+		background-color: HoneyDew; 
+	}
+	#submitbar, #submitdiv {
+		font-size: 88px;
+	}
+	#backbtn, #logoutbtn {
+		font-size: 72px;
+	}
+}
+*/
+
+
+
+
+

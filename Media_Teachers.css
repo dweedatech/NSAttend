@@ -1,0 +1,53 @@
+/*********************************************************************
+ * NS Attendance - Media CSS
+ *
+ */
+ 
+/* mobile layout */                      
+@media only screen and (max-width: 500px) {
+
+	#container {
+		background-color: AliceBlue; 
+	}
+	#submitbar, #submitdiv {
+		font-size: 44px;
+	}
+	#backbtn, #logoutbtn {
+		font-size: 36px;
+	}
+	#instructspan {
+		font-size: 28px;
+	}
+	#listdiv {
+		margin-top: 150px;
+	}
+	#listrow {
+		/*font-size: 36px;*/
+	}
+	#teachername, #classname, #studentname  {
+		font-size: 36px;
+	}
+}
+
+/* desktop layout */ 							
+@media only screen and (min-width: 500px) {
+
+	#container {
+		background-color: AliceBlue;
+	}
+	#submitbar, #submitdiv {
+		font-size: 52px;
+	}
+	#backbtn, #logoutbtn {
+		font-size: 44px;
+	}
+	#instructspan {
+		font-size: 36px;
+	}
+	#listdiv {
+		margin-top: 175px;
+	}
+	#teachername, #classname, #studentname  {
+		font-size: 44px;
+	}
+}

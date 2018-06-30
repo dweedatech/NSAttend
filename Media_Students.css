@@ -1,0 +1,79 @@
+/*********************************************************************
+ * NS Attendance - Media CSS
+ *
+ */
+ 
+/* mobile layout */                      
+@media only screen and (max-width: 570px) {
+
+	#container {
+		background-color: AliceBlue; 
+	}
+	#submitbar, #submitdiv {
+		font-size: 44px;
+	}
+	#backbtn, #logoutbtn {
+		font-size: 36px;
+	}
+	#instructspan {
+		font-size: 28px;
+	}
+	#listdiv {
+		margin-top: 295px;
+	}
+	#listrow {
+		/*font-size: 36px;*/
+	}
+	#teachername, #classname, #studentname  {
+		font-size: 36px;
+	}
+	#hdrdiv {
+		font-size: 28px;	
+	}
+	#datelabel, #viewdoc {
+		font-size: 36px;
+	}
+	#DateInput {
+		width: 170px;
+		font-size: 36px;
+	}
+	#exportimg {
+		width: 20px;
+		height: 20px;
+		margin-left: 15px;
+		transform: scale(2.0);
+	}
+}
+
+/* desktop layout */ 							
+@media only screen and (min-width: 570px) {
+
+	#container {
+		background-color: AliceBlue;
+	}
+	#submitbar, #submitdiv {
+		font-size: 52px;
+	}
+	#backbtn, #logoutbtn {
+		font-size: 44px;
+	}
+	#instructspan {
+		font-size: 36px;
+	}
+	#listdiv {
+		margin-top: 345px;
+	}
+	#teachername, #classname, #studentname  {
+		font-size: 44px;
+	}
+	#hdrdiv {
+		font-size: 36px;	
+	}
+	#datelabel, #viewdoc {
+		font-size: 44px;
+	}
+	#DateInput {
+		width: 200px;
+		font-size: 44px;
+	}
+}

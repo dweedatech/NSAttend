@@ -1,0 +1,140 @@
+/*********************************************************************
+ * NS Attendance
+ *
+ */
+
+#body {
+	background-color: AliceBlue; 
+}
+#container {
+	width: 100%;
+	height: 100%;
+}
+#userform {
+	display: block;
+}
+#banner {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1; 
+	background-color: AliceBlue; 
+}
+#submitbar, #submitdiv {
+	padding: 0;
+	border-style: none;
+	box-shadow: none;
+ 	border-radius: 0px;
+	font-family: Calibri, Sans-serif; 
+	/* position: fixed; */
+	/* top: 0; */ 
+	width: 100%;
+	/* font-size: 20px; */
+	color: white;
+	height: auto;
+	background-color: MidnightBlue; 
+}
+#btndiv {
+	padding: 0;
+	font-family: Calibri, Sans-serif; 
+	display: inline; 
+	/* margin-bottom: 10px; */
+}
+#backbtn {
+	padding: 0;
+	border-style: none;
+	box-shadow: none;
+ 	border-radius: 0px;
+  	/*position: absolute; */
+	/* display:inline-block; */
+	font-family: Calibri, Sans-serif; 
+	/* position: fixed; */
+	top: 30px; 
+	width: 50%;
+	color: white;
+	height: auto;
+	background-color: LightSlateGrey; 
+}
+#logoutbtn {
+	padding: 0;
+	border-style: none;
+	box-shadow: none;
+ 	border-radius: 0px;
+	float: right;
+	width: 50%;
+  	/*position: absolute; */
+	/* display: inline; */
+	font-family: Calibri, Sans-serif; 
+	/* position: fixed; */
+	top: 30px; 
+	/* margin-left: 50%; */
+	color: white;
+	height: auto;
+	background-color: DimGrey; 
+}
+
+#hdrdiv {
+	font-size: 60px;
+	font-family: Calibri, Sans-serif; 
+	/* display: inline; */
+	text-align: center;
+	width: 100%;
+	/* top: 60px; */
+	background-color: Peru;
+	color: White;	
+}
+#instructspan {
+	display: block;
+	font-family: Calibri, Sans-serif;
+	font-size: 48px; 
+	background-color: AliceBlue; 
+	margin-top: 0px;
+	padding-left: 20px;
+	color: Black;
+	text-decoration: underline;
+}
+
+#listdiv {
+	display: block;
+	margin-top: 260px;
+	margin-top: 165px;
+	font-size: 36px;
+	height: 100%;
+    /* overflow: scroll; */
+    width: 100%;
+}
+#listrow {
+	display: block;
+	margin-top: 2px;
+	margin-left: 20px;
+	font-size: 36px;
+}
+#teachername, #classname, #studentname {
+	padding-left: 15px;
+	font-family: Calibri, Sans-serif; 
+	font-size: 20px; 
+}
+#teacherradio, #classradio {
+	color: Snow;
+	width: 14px;
+	margin-left: 10px;
+	margin-right: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+#studentcheck {
+	color: Black;
+	width: 14px;
+	margin-left: 10px;
+	margin-right: 0px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+
+
+
+
+
+
+
